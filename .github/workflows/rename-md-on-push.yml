@@ -1,4 +1,4 @@
-name: Rename Markdown Files On Push
+name: Refresh Markdown Archive Snapshots
 
 on:
   push:
@@ -12,7 +12,7 @@ permissions:
   contents: write
 
 jobs:
-  rename-markdown-files:
+  refresh-markdown-archives:
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
 
@@ -22,8 +22,8 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Rename markdown files with timestamp
-        id: rename
+      - name: Refresh markdown archive snapshots
+        id: archive
         shell: bash
         env:
           BEFORE_SHA: ${{ github.event.before }}
@@ -36,6 +36,7 @@ jobs:
           changed=0
 
           declare -a files=()
+          declare -A seen_paths=()
 
           if [[ "${BEFORE_SHA}" == "${zero_sha}" ]]; then
             while IFS= read -r -d '' path; do
@@ -53,29 +54,39 @@ jobs:
           fi
 
           for path in "${files[@]}"; do
+            if [[ -n "${seen_paths[${path}]:-}" ]]; then
+              continue
+            fi
+            seen_paths["${path}"]=1
+
+            if [[ "${path}" == archive/* ]]; then
+              continue
+            fi
+
             [[ -f "${path}" ]] || continue
 
             dir="$(dirname "${path}")"
             base="$(basename "${path}")"
 
-            if [[ "${base}" =~ ^[0-9]{8}-[0-9]{6}_ ]]; then
-              continue
-            fi
-
-            stem="${base%.md}"
-            target_dir="."
+            archive_dir="archive"
             if [[ "${dir}" != "." ]]; then
-              target_dir="${dir}"
+              archive_dir="archive/${dir}"
             fi
 
-            candidate="${target_dir}/${timestamp}_${base}"
-            suffix=2
-            while [[ -e "${candidate}" ]]; do
-              candidate="${target_dir}/${timestamp}_${stem}-${suffix}.md"
-              suffix=$((suffix + 1))
-            done
+            mkdir -p "${archive_dir}"
 
-            mv "${path}" "${candidate}"
+            shopt -s nullglob
+            for existing in "${archive_dir}"/*_"${base}"; do
+              existing_name="$(basename "${existing}")"
+              if [[ "${existing_name}" =~ ^[0-9]{8}-[0-9]{6}_.+\.md$ ]]; then
+                rm -f "${existing}"
+                changed=1
+              fi
+            done
+            shopt -u nullglob
+
+            candidate="${archive_dir}/${timestamp}_${base}"
+            cp "${path}" "${candidate}"
             changed=1
           done
 
@@ -85,8 +96,8 @@ jobs:
             echo "changed=false" >> "${GITHUB_OUTPUT}"
           fi
 
-      - name: Commit and push renamed files
-        if: steps.rename.outputs.changed == 'true'
+      - name: Commit and push archive snapshots
+        if: steps.archive.outputs.changed == 'true'
         shell: bash
         run: |
           set -euo pipefail
@@ -99,5 +110,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "chore: add timestamps to markdown files"
+          git commit -m "chore: refresh markdown archive snapshots"
           git push
