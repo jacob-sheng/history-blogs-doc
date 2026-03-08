@@ -1,0 +1,175 @@
+<svg width="1100" height="900" viewBox="0 0 1100 900" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1100" height="900" fill="#FFFFFF"/>
+
+  <text x="100" y="110" fill="#111111" font-family="'Noto Serif SC','Source Han Serif SC','Songti SC','SimSun',serif" font-size="38" font-weight="700">宋金兵力与战力</text>
+
+  <g stroke="#111111" stroke-width="4" fill="none">
+    <line x1="550" y1="180" x2="550" y2="620"/>
+    <path d="M500 620L550 540L600 620Z" fill="#FFFFFF"/>
+    <line x1="300" y1="380" x2="800" y2="470"/>
+    <line x1="350" y1="389" x2="300" y2="560"/>
+    <line x1="750" y1="461" x2="800" y2="680"/>
+    <line x1="220" y1="560" x2="380" y2="560"/>
+    <line x1="700" y1="680" x2="900" y2="680"/>
+  </g>
+
+  <g fill="#111111" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif">
+    <text x="300" y="748" text-anchor="middle" font-size="28" font-weight="700">宋军</text>
+    <text x="300" y="786" text-anchor="middle" font-size="24">20万+勤王之师</text>
+    <text x="800" y="748" text-anchor="middle" font-size="28" font-weight="700">金军</text>
+    <text x="800" y="786" text-anchor="middle" font-size="24">6万精锐</text>
+  </g>
+
+  <g transform="translate(228 386)">
+    <g stroke="#8A8A8A" stroke-width="3" stroke-dasharray="7 6" stroke-opacity="0.55" fill="none">
+      <circle cx="24" cy="16" r="10"/>
+      <line x1="24" y1="28" x2="24" y2="54"/>
+      <line x1="10" y1="38" x2="38" y2="38"/>
+      <line x1="24" y1="54" x2="12" y2="74"/>
+      <line x1="24" y1="54" x2="36" y2="74"/>
+    </g>
+    <g stroke="#8A8A8A" stroke-width="3" stroke-dasharray="7 6" stroke-opacity="0.55" fill="none" transform="translate(46 0)">
+      <circle cx="24" cy="16" r="10"/>
+      <line x1="24" y1="28" x2="24" y2="54"/>
+      <line x1="10" y1="38" x2="38" y2="38"/>
+      <line x1="24" y1="54" x2="12" y2="74"/>
+      <line x1="24" y1="54" x2="36" y2="74"/>
+    </g>
+    <g stroke="#8A8A8A" stroke-width="3" stroke-dasharray="7 6" stroke-opacity="0.55" fill="none" transform="translate(92 0)">
+      <circle cx="24" cy="16" r="10"/>
+      <line x1="24" y1="28" x2="24" y2="54"/>
+      <line x1="10" y1="38" x2="38" y2="38"/>
+      <line x1="24" y1="54" x2="12" y2="74"/>
+      <line x1="24" y1="54" x2="36" y2="74"/>
+    </g>
+    <g stroke="#8A8A8A" stroke-width="3" stroke-dasharray="7 6" stroke-opacity="0.55" fill="none" transform="translate(138 0)">
+      <circle cx="24" cy="16" r="10"/>
+      <line x1="24" y1="28" x2="24" y2="54"/>
+      <line x1="10" y1="38" x2="38" y2="38"/>
+      <line x1="24" y1="54" x2="12" y2="74"/>
+      <line x1="24" y1="54" x2="36" y2="74"/>
+    </g>
+    <g stroke="#8A8A8A" stroke-width="3" stroke-dasharray="7 6" stroke-opacity="0.55" fill="none" transform="translate(0 84)">
+      <circle cx="24" cy="16" r="10"/>
+      <line x1="24" y1="28" x2="24" y2="54"/>
+      <line x1="10" y1="38" x2="38" y2="38"/>
+      <line x1="24" y1="54" x2="12" y2="74"/>
+      <line x1="24" y1="54" x2="36" y2="74"/>
+    </g>
+    <g stroke="#8A8A8A" stroke-width="3" stroke-dasharray="7 6" stroke-opacity="0.55" fill="none" transform="translate(46 84)">
+      <circle cx="24" cy="16" r="10"/>
+      <line x1="24" y1="28" x2="24" y2="54"/>
+      <line x1="10" y1="38" x2="38" y2="38"/>
+      <line x1="24" y1="54" x2="12" y2="74"/>
+      <line x1="24" y1="54" x2="36" y2="74"/>
+    </g>
+    <g stroke="#8A8A8A" stroke-width="3" stroke-dasharray="7 6" stroke-opacity="0.55" fill="none" transform="translate(92 84)">
+      <circle cx="24" cy="16" r="10"/>
+      <line x1="24" y1="28" x2="24" y2="54"/>
+      <line x1="10" y1="38" x2="38" y2="38"/>
+      <line x1="24" y1="54" x2="12" y2="74"/>
+      <line x1="24" y1="54" x2="36" y2="74"/>
+    </g>
+    <g stroke="#8A8A8A" stroke-width="3" stroke-dasharray="7 6" stroke-opacity="0.55" fill="none" transform="translate(138 84)">
+      <circle cx="24" cy="16" r="10"/>
+      <line x1="24" y1="28" x2="24" y2="54"/>
+      <line x1="10" y1="38" x2="38" y2="38"/>
+      <line x1="24" y1="54" x2="12" y2="74"/>
+      <line x1="24" y1="54" x2="36" y2="74"/>
+    </g>
+    <g stroke="#8A8A8A" stroke-width="3" stroke-dasharray="7 6" stroke-opacity="0.55" fill="none" transform="translate(0 168)">
+      <circle cx="24" cy="16" r="10"/>
+      <line x1="24" y1="28" x2="24" y2="54"/>
+      <line x1="10" y1="38" x2="38" y2="38"/>
+      <line x1="24" y1="54" x2="12" y2="74"/>
+      <line x1="24" y1="54" x2="36" y2="74"/>
+    </g>
+    <g stroke="#8A8A8A" stroke-width="3" stroke-dasharray="7 6" stroke-opacity="0.55" fill="none" transform="translate(46 168)">
+      <circle cx="24" cy="16" r="10"/>
+      <line x1="24" y1="28" x2="24" y2="54"/>
+      <line x1="10" y1="38" x2="38" y2="38"/>
+      <line x1="24" y1="54" x2="12" y2="74"/>
+      <line x1="24" y1="54" x2="36" y2="74"/>
+    </g>
+    <g stroke="#8A8A8A" stroke-width="3" stroke-dasharray="7 6" stroke-opacity="0.55" fill="none" transform="translate(92 168)">
+      <circle cx="24" cy="16" r="10"/>
+      <line x1="24" y1="28" x2="24" y2="54"/>
+      <line x1="10" y1="38" x2="38" y2="38"/>
+      <line x1="24" y1="54" x2="12" y2="74"/>
+      <line x1="24" y1="54" x2="36" y2="74"/>
+    </g>
+    <g stroke="#111111" stroke-width="4" fill="none" transform="translate(138 168)">
+      <circle cx="24" cy="16" r="10"/>
+      <line x1="24" y1="28" x2="24" y2="54"/>
+      <line x1="10" y1="38" x2="38" y2="38"/>
+      <line x1="24" y1="54" x2="12" y2="74"/>
+      <line x1="24" y1="54" x2="36" y2="74"/>
+    </g>
+    <g stroke="#111111" stroke-width="4" fill="none" transform="translate(0 252)">
+      <circle cx="24" cy="16" r="10"/>
+      <line x1="24" y1="28" x2="24" y2="54"/>
+      <line x1="10" y1="38" x2="38" y2="38"/>
+      <line x1="24" y1="54" x2="12" y2="74"/>
+      <line x1="24" y1="54" x2="36" y2="74"/>
+    </g>
+    <g stroke="#111111" stroke-width="4" fill="none" transform="translate(46 252)">
+      <circle cx="24" cy="16" r="10"/>
+      <line x1="24" y1="28" x2="24" y2="54"/>
+      <line x1="10" y1="38" x2="38" y2="38"/>
+      <line x1="24" y1="54" x2="12" y2="74"/>
+      <line x1="24" y1="54" x2="36" y2="74"/>
+    </g>
+    <g stroke="#111111" stroke-width="4" fill="none" transform="translate(92 252)">
+      <circle cx="24" cy="16" r="10"/>
+      <line x1="24" y1="28" x2="24" y2="54"/>
+      <line x1="10" y1="38" x2="38" y2="38"/>
+      <line x1="24" y1="54" x2="12" y2="74"/>
+      <line x1="24" y1="54" x2="36" y2="74"/>
+    </g>
+  </g>
+
+  <g transform="translate(720 512)" stroke="#2D3136" stroke-width="5" fill="none">
+    <g>
+      <circle cx="24" cy="16" r="10"/>
+      <line x1="24" y1="28" x2="24" y2="54"/>
+      <line x1="10" y1="38" x2="38" y2="38"/>
+      <line x1="24" y1="54" x2="12" y2="74"/>
+      <line x1="24" y1="54" x2="36" y2="74"/>
+    </g>
+    <g transform="translate(50 0)">
+      <circle cx="24" cy="16" r="10"/>
+      <line x1="24" y1="28" x2="24" y2="54"/>
+      <line x1="10" y1="38" x2="38" y2="38"/>
+      <line x1="24" y1="54" x2="12" y2="74"/>
+      <line x1="24" y1="54" x2="36" y2="74"/>
+    </g>
+    <g transform="translate(100 0)">
+      <circle cx="24" cy="16" r="10"/>
+      <line x1="24" y1="28" x2="24" y2="54"/>
+      <line x1="10" y1="38" x2="38" y2="38"/>
+      <line x1="24" y1="54" x2="12" y2="74"/>
+      <line x1="24" y1="54" x2="36" y2="74"/>
+    </g>
+    <g transform="translate(0 86)">
+      <circle cx="24" cy="16" r="10"/>
+      <line x1="24" y1="28" x2="24" y2="54"/>
+      <line x1="10" y1="38" x2="38" y2="38"/>
+      <line x1="24" y1="54" x2="12" y2="74"/>
+      <line x1="24" y1="54" x2="36" y2="74"/>
+    </g>
+    <g transform="translate(50 86)">
+      <circle cx="24" cy="16" r="10"/>
+      <line x1="24" y1="28" x2="24" y2="54"/>
+      <line x1="10" y1="38" x2="38" y2="38"/>
+      <line x1="24" y1="54" x2="12" y2="74"/>
+      <line x1="24" y1="54" x2="36" y2="74"/>
+    </g>
+    <g transform="translate(100 86)">
+      <circle cx="24" cy="16" r="10"/>
+      <line x1="24" y1="28" x2="24" y2="54"/>
+      <line x1="10" y1="38" x2="38" y2="38"/>
+      <line x1="24" y1="54" x2="12" y2="74"/>
+      <line x1="24" y1="54" x2="36" y2="74"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,169 @@
+<svg width="1000" height="1170" viewBox="0 0 1000 1170" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="1170" fill="#F6F5F2"/>
+
+  <defs>
+    <style>
+      .title { font: 700 38px 'Noto Serif SC','Source Han Serif SC','Songti SC','SimSun',serif; fill: #18181B; }
+      .subtitle { font: 400 18px 'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif; fill: #52525B; }
+      .colhead { font: 700 20px 'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif; fill: #FFFFFF; }
+      .rowhead { font: 700 20px 'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif; fill: #18181B; }
+      .body { font: 400 16px 'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif; fill: #1F2937; }
+      .small { font: 400 14px 'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif; fill: #475569; }
+      .badge { font: 700 16px 'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif; }
+      .foot { font: 400 15px 'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif; fill: #52525B; }
+    </style>
+  </defs>
+
+  <text x="50" y="72" class="title">北宋与金朝：纸面优势为何败给实战</text>
+  <text x="50" y="104" class="subtitle">从兵力、铠甲、武器到机动与战略主动权，北宋多项“理论优势”在战场上被逐项反转。</text>
+
+  <rect x="40" y="130" width="140" height="52" fill="#3F3F46"/>
+  <rect x="180" y="130" width="280" height="52" fill="#28356D"/>
+  <rect x="460" y="130" width="280" height="52" fill="#4B5563"/>
+  <rect x="740" y="130" width="220" height="52" fill="#7F1D1D"/>
+  <text x="110" y="163" text-anchor="middle" class="colhead">对比维度</text>
+  <text x="320" y="163" text-anchor="middle" class="colhead">北宋（纸面 / 理论）</text>
+  <text x="600" y="163" text-anchor="middle" class="colhead">金朝（纸面 / 理论）</text>
+  <text x="850" y="163" text-anchor="middle" class="colhead">实际结果</text>
+
+  <!-- Row 1 -->
+  <rect x="40" y="182" width="920" height="180" fill="#FFFFFF" stroke="#D6D3D1"/>
+  <line x1="180" y1="182" x2="180" y2="362" stroke="#E7E5E4"/>
+  <line x1="460" y1="182" x2="460" y2="362" stroke="#E7E5E4"/>
+  <line x1="740" y1="182" x2="740" y2="362" stroke="#E7E5E4"/>
+  <circle cx="110" cy="240" r="30" fill="#E5E7EB" stroke="#9CA3AF" stroke-width="2"/>
+  <circle cx="96" cy="232" r="6" fill="#4B5563"/>
+  <circle cx="110" cy="224" r="6" fill="#4B5563"/>
+  <circle cx="124" cy="232" r="6" fill="#4B5563"/>
+  <rect x="92" y="244" width="36" height="12" fill="#4B5563" rx="4"/>
+  <text x="110" y="292" text-anchor="middle" class="rowhead">总兵力</text>
+
+  <rect x="414" y="198" width="30" height="30" rx="15" fill="#16A34A"/>
+  <text x="429" y="219" text-anchor="middle" class="badge" fill="#FFFFFF">✓</text>
+  <text x="204" y="225" class="body">账面百万</text>
+  <text x="204" y="252" class="body">勤王之师 20万+</text>
+  <text x="204" y="287" class="small">纸面数量占优，但组织与训练无法兑现。</text>
+
+  <rect x="694" y="198" width="30" height="30" rx="15" fill="#9CA3AF"/>
+  <text x="709" y="219" text-anchor="middle" class="badge" fill="#FFFFFF">✕</text>
+  <text x="484" y="225" class="body">首次围城约 6万</text>
+  <text x="484" y="252" class="body">二次南下约 10-15万</text>
+  <text x="484" y="287" class="small">数量不占优，但可集中投入有效兵力。</text>
+
+  <rect x="760" y="198" width="180" height="34" rx="6" fill="#FEE2E2"/>
+  <text x="850" y="220" text-anchor="middle" class="badge" fill="#991B1B">实战：宋 ✕ / 金 ✓</text>
+  <text x="764" y="262" class="body">宋军一触即溃，</text>
+  <text x="764" y="289" class="body">全线崩溃。</text>
+
+  <!-- Row 2 -->
+  <rect x="40" y="362" width="920" height="180" fill="#FAFAF9" stroke="#D6D3D1"/>
+  <line x1="180" y1="362" x2="180" y2="542" stroke="#E7E5E4"/>
+  <line x1="460" y1="362" x2="460" y2="542" stroke="#E7E5E4"/>
+  <line x1="740" y1="362" x2="740" y2="542" stroke="#E7E5E4"/>
+  <circle cx="110" cy="420" r="30" fill="#E5E7EB" stroke="#9CA3AF" stroke-width="2"/>
+  <path d="M95 406H125V435L110 447L95 435Z" fill="none" stroke="#4B5563" stroke-width="3"/>
+  <text x="110" y="472" text-anchor="middle" class="rowhead">铠甲</text>
+
+  <rect x="414" y="378" width="30" height="30" rx="15" fill="#16A34A"/>
+  <text x="429" y="399" text-anchor="middle" class="badge" fill="#FFFFFF">✓</text>
+  <text x="204" y="405" class="body">步人甲，45-50斤</text>
+  <text x="204" y="432" class="body">“自昔未有”</text>
+  <text x="204" y="467" class="small">理论防护极强，但行军和久战负担沉重。</text>
+
+  <rect x="694" y="378" width="30" height="30" rx="15" fill="#9CA3AF"/>
+  <text x="709" y="399" text-anchor="middle" class="badge" fill="#FFFFFF">✕</text>
+  <text x="484" y="405" class="body">重骑兵人马皆甲</text>
+  <text x="484" y="432" class="body">更适配短时突击</text>
+  <text x="484" y="467" class="small">防护与冲击结合，而不是让步兵负重硬扛。</text>
+
+  <rect x="760" y="378" width="180" height="34" rx="6" fill="#FEE2E2"/>
+  <text x="850" y="400" text-anchor="middle" class="badge" fill="#991B1B">实战：宋 ✕ / 金 ✓</text>
+  <text x="764" y="442" class="body">宋军重甲耗尽体能，</text>
+  <text x="764" y="469" class="body">沦为“铁棺材”。</text>
+
+  <!-- Row 3 -->
+  <rect x="40" y="542" width="920" height="180" fill="#FFFFFF" stroke="#D6D3D1"/>
+  <line x1="180" y1="542" x2="180" y2="722" stroke="#E7E5E4"/>
+  <line x1="460" y1="542" x2="460" y2="722" stroke="#E7E5E4"/>
+  <line x1="740" y1="542" x2="740" y2="722" stroke="#E7E5E4"/>
+  <circle cx="110" cy="600" r="30" fill="#E5E7EB" stroke="#9CA3AF" stroke-width="2"/>
+  <path d="M95 615L123 587" stroke="#4B5563" stroke-width="3"/>
+  <path d="M95 598H121" stroke="#4B5563" stroke-width="3"/>
+  <path d="M121 598L127 604L127 582Z" fill="#4B5563"/>
+  <text x="110" y="652" text-anchor="middle" class="rowhead">远程武器</text>
+
+  <rect x="414" y="558" width="30" height="30" rx="15" fill="#16A34A"/>
+  <text x="429" y="579" text-anchor="middle" class="badge" fill="#FFFFFF">✓</text>
+  <text x="204" y="585" class="body">神臂弓，射程 370米+</text>
+  <text x="204" y="612" class="body">“自古未有之利器”</text>
+  <text x="204" y="647" class="small">武器性能强，但依赖稳定阵地与装填时间。</text>
+
+  <rect x="694" y="558" width="30" height="30" rx="15" fill="#9CA3AF"/>
+  <text x="709" y="579" text-anchor="middle" class="badge" fill="#FFFFFF">✕</text>
+  <text x="484" y="585" class="body">骑兵弓，射程较短</text>
+  <text x="484" y="612" class="body">但机动灵活</text>
+  <text x="484" y="647" class="small">不求硬拼射程，只求来回消耗与避实击虚。</text>
+
+  <rect x="760" y="558" width="180" height="34" rx="6" fill="#FEE2E2"/>
+  <text x="850" y="580" text-anchor="middle" class="badge" fill="#991B1B">实战：宋 ✕ / 金 ✓</text>
+  <text x="764" y="622" class="body">金军避开正面硬冲，</text>
+  <text x="764" y="649" class="body">神臂弓形同虚设。</text>
+
+  <!-- Row 4 -->
+  <rect x="40" y="722" width="920" height="180" fill="#FAFAF9" stroke="#D6D3D1"/>
+  <line x1="180" y1="722" x2="180" y2="902" stroke="#E7E5E4"/>
+  <line x1="460" y1="722" x2="460" y2="902" stroke="#E7E5E4"/>
+  <line x1="740" y1="722" x2="740" y2="902" stroke="#E7E5E4"/>
+  <circle cx="110" cy="780" r="30" fill="#E5E7EB" stroke="#9CA3AF" stroke-width="2"/>
+  <path d="M98 796L92 782L98 768" stroke="#4B5563" stroke-width="3" fill="none"/>
+  <path d="M122 768Q130 780 122 792" stroke="#4B5563" stroke-width="3" fill="none"/>
+  <line x1="92" y1="780" x2="122" y2="780" stroke="#4B5563" stroke-width="3"/>
+  <text x="110" y="832" text-anchor="middle" class="rowhead">机动性</text>
+
+  <rect x="414" y="738" width="30" height="30" rx="15" fill="#9CA3AF"/>
+  <text x="429" y="759" text-anchor="middle" class="badge" fill="#FFFFFF">✕</text>
+  <text x="204" y="765" class="body">纯步兵，两条腿</text>
+  <text x="204" y="792" class="body">背负重甲与辎重</text>
+  <text x="204" y="827" class="small">追不上骑兵，也难以在包围中脱离。</text>
+
+  <rect x="694" y="738" width="30" height="30" rx="15" fill="#16A34A"/>
+  <text x="709" y="759" text-anchor="middle" class="badge" fill="#FFFFFF">✓</text>
+  <text x="484" y="765" class="body">纯骑兵，四条腿</text>
+  <text x="484" y="792" class="body">来去如风</text>
+  <text x="484" y="827" class="small">想打就打，想走就走，始终掌握节奏。</text>
+
+  <rect x="760" y="738" width="180" height="34" rx="6" fill="#E2E8F0"/>
+  <text x="850" y="760" text-anchor="middle" class="badge" fill="#0F172A">实战：宋 ✕ / 金 ✓</text>
+  <text x="764" y="802" class="body">宋军追不上、跑不掉；</text>
+  <text x="764" y="829" class="body">金军始终占主动。</text>
+
+  <!-- Row 5 -->
+  <rect x="40" y="902" width="920" height="180" fill="#FFFFFF" stroke="#D6D3D1"/>
+  <line x1="180" y1="902" x2="180" y2="1082" stroke="#E7E5E4"/>
+  <line x1="460" y1="902" x2="460" y2="1082" stroke="#E7E5E4"/>
+  <line x1="740" y1="902" x2="740" y2="1082" stroke="#E7E5E4"/>
+  <circle cx="110" cy="960" r="30" fill="#E5E7EB" stroke="#9CA3AF" stroke-width="2"/>
+  <rect x="94" y="948" width="32" height="22" fill="none" stroke="#4B5563" stroke-width="3"/>
+  <path d="M94 948L110 936L126 948" fill="none" stroke="#4B5563" stroke-width="3"/>
+  <text x="110" y="1012" text-anchor="middle" class="rowhead">战略主动权</text>
+
+  <rect x="414" y="918" width="30" height="30" rx="15" fill="#9CA3AF"/>
+  <text x="429" y="939" text-anchor="middle" class="badge" fill="#FFFFFF">✕</text>
+  <text x="204" y="945" class="body">被动防御</text>
+  <text x="204" y="972" class="body">处处设防，处处薄弱</text>
+  <text x="204" y="1007" class="small">救援太原时被迫分兵应对，难以集中发力。</text>
+
+  <rect x="694" y="918" width="30" height="30" rx="15" fill="#16A34A"/>
+  <text x="709" y="939" text-anchor="middle" class="badge" fill="#FFFFFF">✓</text>
+  <text x="484" y="945" class="body">主动进攻</text>
+  <text x="484" y="972" class="body">集中兵力，各个击破</text>
+  <text x="484" y="1007" class="small">始终把战场选择权握在自己手中。</text>
+
+  <rect x="760" y="918" width="180" height="34" rx="6" fill="#E2E8F0"/>
+  <text x="850" y="940" text-anchor="middle" class="badge" fill="#0F172A">实战：宋 ✕ / 金 ✓</text>
+  <text x="764" y="982" class="body">宋军援太原精锐，</text>
+  <text x="764" y="1009" class="body">被逐一歼灭。</text>
+
+  <rect x="40" y="1110" width="920" height="70" fill="#E7E5E4"/>
+  <text x="60" y="1152" class="foot">标识说明：绿色 ✓ 表示该维度在纸面 / 理论上占优；灰色 ✕ 表示不占优；右栏显示实战兑现结果。</text>
+</svg>
