@@ -1,0 +1,40 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#FFFFFF"/>
+
+  <text x="120" y="110" fill="#111111" font-family="'Noto Serif SC','Source Han Serif SC','Songti SC','SimSun',serif" font-size="42" font-weight="700">北宋禁军账面兵力与实际可战核心对比</text>
+  <text x="120" y="150" fill="#444444" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-size="22">同一线性刻度，单位：万人</text>
+
+  <g transform="translate(0 0)">
+    <line x1="180" y1="720" x2="1420" y2="720" stroke="#111111" stroke-width="3"/>
+    <line x1="180" y1="180" x2="180" y2="720" stroke="#111111" stroke-width="3"/>
+
+    <g stroke="#D0D0D0" stroke-width="1">
+      <line x1="180" y1="612" x2="1420" y2="612"/>
+      <line x1="180" y1="504" x2="1420" y2="504"/>
+      <line x1="180" y1="396" x2="1420" y2="396"/>
+      <line x1="180" y1="288" x2="1420" y2="288"/>
+      <line x1="180" y1="180" x2="1420" y2="180"/>
+    </g>
+
+    <g fill="#333333" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-size="22">
+      <text x="138" y="727">0</text>
+      <text x="102" y="619">20</text>
+      <text x="102" y="511">40</text>
+      <text x="102" y="403">60</text>
+      <text x="102" y="295">80</text>
+      <text x="90" y="187">100</text>
+    </g>
+
+    <rect x="360" y="180" width="240" height="540" fill="#C43C2B"/>
+    <rect x="980" y="639" width="240" height="81" fill="#7A7A7A" fill-opacity="0.55"/>
+
+    <g fill="#111111" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif">
+      <text x="480" y="760" text-anchor="middle" font-size="30" font-weight="700">账面兵力</text>
+      <text x="480" y="798" text-anchor="middle" font-size="24">80万-100万</text>
+      <text x="1100" y="760" text-anchor="middle" font-size="30" font-weight="700">实际可战核心</text>
+      <text x="1100" y="798" text-anchor="middle" font-size="24">数万至十余万</text>
+    </g>
+
+    <text x="800" y="470" text-anchor="middle" fill="#222222" font-family="'Noto Serif SC','Source Han Serif SC','Songti SC','SimSun',serif" font-size="88" font-weight="700">空额</text>
+  </g>
+</svg>
