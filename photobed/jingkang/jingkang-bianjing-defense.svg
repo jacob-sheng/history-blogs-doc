@@ -1,68 +1,59 @@
 <svg width="1100" height="760" viewBox="0 0 1100 760" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <marker id="red-arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
-      <path d="M0 0L12 6L0 12Z" fill="#B91C1C"/>
+    <!-- 进一步缩小后的箭头标记 -->
+    <marker id="red-arrow" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#B91C1C"/>
     </marker>
-    <marker id="gray-arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <marker id="gray-arrow" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto">
       <path d="M0 0L10 5L0 10Z" fill="#4B5563"/>
     </marker>
   </defs>
-
   <rect width="1100" height="760" fill="#F3F0E8"/>
   <text x="70" y="72" fill="#1F2937" font-family="'Noto Serif SC','Source Han Serif SC','Songti SC','SimSun',serif" font-size="34" font-weight="700">汴京城防示意图</text>
-  <text x="70" y="104" fill="#6B7280" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-size="18">郭京出城溃败后，宣化门方向防线洞开，金军两路合围登城。</text>
-
-  <!-- city wall -->
+  <text x="70" y="104" fill="#6B7280" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-size="18">宣化门出城作战溃败后，金军两路合围登城，守军已撤，防线洞开。</text>
+  <!-- 外城墙 -->
   <rect x="250" y="170" width="600" height="420" fill="#E8DFCB" stroke="#6B5B45" stroke-width="10"/>
   <rect x="350" y="260" width="400" height="240" fill="#F7F3EA" stroke="#C8B899" stroke-width="2" stroke-dasharray="10 8"/>
-
-  <!-- moat / city label -->
   <text x="550" y="394" text-anchor="middle" fill="#7A6851" font-family="'Noto Serif SC','Source Han Serif SC','Songti SC','SimSun',serif" font-size="44" font-weight="700">汴京</text>
-  <text x="550" y="438" text-anchor="middle" fill="#8A7A63" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-size="20">内城守御已乱，城门被相继洞开</text>
-
-  <!-- gates -->
+  <text x="550" y="438" text-anchor="middle" fill="#8A7A63" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-size="20">内城守御已乱，城门相继洞开</text>
+  <!-- 城门缺口 -->
   <rect x="236" y="320" width="28" height="70" fill="#F3F0E8"/>
   <rect x="836" y="318" width="28" height="74" fill="#F3F0E8"/>
   <rect x="500" y="576" width="100" height="28" fill="#F3F0E8"/>
-
+  <!-- 宣化门标注 -->
   <rect x="118" y="300" width="110" height="44" rx="6" fill="#FFFFFF" stroke="#8B7355" stroke-width="2"/>
   <text x="173" y="328" text-anchor="middle" fill="#433527" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-size="20" font-weight="700">宣化门</text>
   <line x1="228" y1="322" x2="250" y2="336" stroke="#8B7355" stroke-width="2"/>
-
+  <!-- 南薰门标注 -->
   <rect x="870" y="298" width="110" height="44" rx="6" fill="#FFFFFF" stroke="#8B7355" stroke-width="2"/>
   <text x="925" y="326" text-anchor="middle" fill="#433527" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-size="20" font-weight="700">南薰门</text>
   <line x1="870" y1="320" x2="850" y2="334" stroke="#8B7355" stroke-width="2"/>
-
-  <!-- defenders withdrawn -->
+  <!-- 守军已撤 -->
   <rect x="706" y="208" width="154" height="42" rx="6" fill="#FFF7ED" stroke="#C2410C" stroke-width="2"/>
   <text x="783" y="235" text-anchor="middle" fill="#9A3412" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-size="20" font-weight="700">守军已撤</text>
   <line x1="752" y1="250" x2="792" y2="294" stroke="#C2410C" stroke-width="2"/>
-
-  <!-- Jin attack directions -->
-  <path d="M80 250C150 250 180 270 248 330" fill="none" stroke="#4B5563" stroke-width="8" marker-end="url(#gray-arrow)"/>
+  <!-- 金军两路合围（路径粗细减至4） -->
+  <path d="M80 250C150 250 180 270 248 330" fill="none" stroke="#4B5563" stroke-width="4" marker-end="url(#gray-arrow)"/>
   <text x="90" y="234" fill="#374151" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-size="18">西路金军</text>
-
-  <path d="M1020 250C950 250 914 276 850 332" fill="none" stroke="#4B5563" stroke-width="8" marker-end="url(#gray-arrow)"/>
+  <path d="M1020 250C950 250 914 276 850 332" fill="none" stroke="#4B5563" stroke-width="4" marker-end="url(#gray-arrow)"/>
   <text x="932" y="234" fill="#374151" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-size="18">东路金军</text>
-
-  <!-- Guo Jing route and collapse -->
-  <circle cx="206" cy="355" r="10" fill="#B91C1C"/>
-  <text x="110" y="384" fill="#B91C1C" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-size="18" font-weight="700">郭京出城</text>
-  <path d="M262 355C340 330 430 318 520 334" fill="none" stroke="#B91C1C" stroke-width="6" marker-end="url(#red-arrow)"/>
-  <text x="388" y="314" text-anchor="middle" fill="#B91C1C" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-size="18">出城作战</text>
-
-  <path d="M520 334C498 356 486 384 490 412C496 448 530 470 578 486" fill="none" stroke="#B91C1C" stroke-width="6" stroke-dasharray="10 8" marker-end="url(#red-arrow)"/>
-  <text x="560" y="420" fill="#B91C1C" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-size="18" font-weight="700">溃败</text>
-
-  <path d="M610 488C694 472 760 430 842 360" fill="none" stroke="#B91C1C" stroke-width="6" marker-end="url(#red-arrow)"/>
-  <text x="740" y="462" fill="#B91C1C" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-size="18">金军登城</text>
-
-  <!-- city breach emphasis -->
-  <circle cx="850" cy="355" r="26" fill="none" stroke="#B91C1C" stroke-width="5"/>
-  <line x1="830" y1="335" x2="870" y2="375" stroke="#B91C1C" stroke-width="5"/>
-  <line x1="870" y1="335" x2="830" y2="375" stroke="#B91C1C" stroke-width="5"/>
-
-  <!-- bottom legend -->
+  <!-- 修正后的郭京出城 → 溃败 → 金军登城全过程（红色箭头粗细减至4） -->
+  <!-- 宣化门位置红点 -->
+  <circle cx="250" cy="355" r="10" fill="#B91C1C"/>
+  <!-- 1. 郭京出城 -->
+  <path d="M250 355 L180 355" fill="none" stroke="#B91C1C" stroke-width="4" marker-end="url(#red-arrow)"/>
+  <text x="215" y="330" fill="#B91C1C" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-size="18" font-weight="700">郭京出城</text>
+  <!-- 2. 溃败（虚线） -->
+  <path d="M180 355 C150 340, 130 370, 100 380" fill="none" stroke="#B91C1C" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#red-arrow)"/>
+  <text x="120" y="360" fill="#B91C1C" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-size="18" font-weight="700">溃败</text>
+  <!-- 3. 金军登城 -->
+  <path d="M100 380 C130 400, 200 390, 250 355" fill="none" stroke="#B91C1C" stroke-width="4" marker-end="url(#red-arrow)"/>
+  <text x="150" y="410" fill="#B91C1C" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-size="18" font-weight="700">金军登城</text>
+  <!-- 宣化门失守点强调（红圈叉） -->
+  <circle cx="250" cy="355" r="26" fill="none" stroke="#B91C1C" stroke-width="5"/>
+  <line x1="230" y1="335" x2="270" y2="375" stroke="#B91C1C" stroke-width="5"/>
+  <line x1="270" y1="335" x2="230" y2="375" stroke="#B91C1C" stroke-width="5"/>
+  <!-- 底部图例（不变） -->
   <rect x="64" y="654" width="972" height="58" fill="#E7E0D0"/>
   <line x1="92" y1="683" x2="142" y2="683" stroke="#4B5563" stroke-width="8"/>
   <text x="154" y="689" fill="#374151" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-size="16">金军合围方向</text>
