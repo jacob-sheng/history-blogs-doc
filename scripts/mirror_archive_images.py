@@ -533,6 +533,9 @@ def main() -> int:
     ]
     uploaders = build_uploaders(provider_names)
     cache = load_json(cache_path, {"version": 2, "items": {}})
+    cache["version"] = 2
+    if not isinstance(cache.get("items"), dict):
+        cache["items"] = {}
 
     stats = {
         "uploaded": 0,
