@@ -14,6 +14,7 @@ from pathlib import Path
 RAW_URL_RE = re.compile(r"https://raw\.githubusercontent\.com/[^\s\"'<>)]+" )
 DEFAULT_PICHUB_ENDPOINT = "https://api.pichub.app/api/v1/upload"
 DEFAULT_SUPERBED_ENDPOINT = "https://api.superbed.cn/upload"
+DEFAULT_USER_AGENT = "history-blogs-doc-cn-mirror/1.0"
 
 
 def load_json(path: Path, default):
@@ -80,13 +81,29 @@ def post_json_request(
     timeout: int = 60,
 ):
     body, content_type = encode_multipart(fields, files)
-    request_headers = {"Content-Type": content_type, "Accept": "application/json"}
+    request_headers = {
+        "Content-Type": content_type,
+        "Accept": "application/json, text/plain, */*",
+        "User-Agent": DEFAULT_USER_AGENT,
+    }
     if headers:
         request_headers.update(headers)
     request = urllib.request.Request(url=url, data=body, headers=request_headers, method="POST")
-    with urllib.request.urlopen(request, timeout=timeout) as response:
-        raw = response.read().decode("utf-8")
-        return json.loads(raw)
+    try:
+        with urllib.request.urlopen(request, timeout=timeout) as response:
+            raw = response.read().decode("utf-8")
+            return json.loads(raw)
+    except urllib.error.HTTPError as exc:
+        raw = exc.read().decode("utf-8", errors="replace")
+        try:
+            payload = json.loads(raw)
+        except json.JSONDecodeError:
+            snippet = raw[:400].replace("\n", " ")
+            raise UploadError(f"HTTP {exc.code}: {snippet}") from exc
+        message = payload.get("message")
+        if not message and isinstance(payload.get("error"), dict):
+            message = payload["error"].get("message") or payload["error"].get("code")
+        raise UploadError(f"HTTP {exc.code}: {message or payload}") from exc
 
 
 def extract_first_url(payload):
@@ -137,22 +154,38 @@ class PicHubUploader:
         return bool(self.token)
 
     def upload(self, file_path: Path, stable_name: str) -> str:
-        with file_path.open("rb") as handle:
-            payload = post_json_request(
-                self.endpoint,
-                {
-                    "quality": "85",
-                    "is_public": "1",
-                },
-                [("files[]", stable_name, handle.read())],
-                headers={"Authorization": f"Bearer {self.token}"},
-            )
-        if not payload.get("success"):
-            raise UploadError(payload.get("message") or "PicHub upload failed")
-        url = extract_first_url(payload.get("data"))
-        if not url:
-            raise UploadError("PicHub response did not include a usable URL")
-        return url
+        content = file_path.read_bytes()
+        attempts = (
+            [("image", stable_name, content)],
+            [("files[]", stable_name, content)],
+        )
+        last_error = None
+        for file_fields in attempts:
+            try:
+                payload = post_json_request(
+                    self.endpoint,
+                    {},
+                    file_fields,
+                    headers={"Authorization": f"Bearer {self.token}"},
+                )
+            except UploadError as exc:
+                last_error = exc
+                continue
+
+            if not payload.get("success"):
+                error_payload = payload.get("error")
+                message = payload.get("message")
+                if not message and isinstance(error_payload, dict):
+                    message = error_payload.get("message") or error_payload.get("code")
+                last_error = UploadError(message or "PicHub upload failed")
+                continue
+
+            url = extract_first_url(payload.get("data"))
+            if url:
+                return url
+            last_error = UploadError(f"PicHub response did not include a usable URL: {payload}")
+
+        raise last_error or UploadError("PicHub upload failed")
 
 
 class SuperbedUploader:
@@ -367,6 +400,8 @@ def main() -> int:
         for message in stats["errors"][:5]:
             summary_lines.append(f"  - {message}")
     append_summary(summary_lines)
+    for line in summary_lines:
+        print(line)
     return 0
 
 
