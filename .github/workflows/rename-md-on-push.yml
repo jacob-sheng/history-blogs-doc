@@ -18,8 +18,10 @@ jobs:
     runs-on: ubuntu-latest
     env:
       CN_MIRROR_PROVIDERS: ${{ vars.CN_MIRROR_PROVIDERS || 'pichub,superbed' }}
+      CN_IMAGE_MAX_BYTES: ${{ vars.CN_IMAGE_MAX_BYTES || '512000' }}
       PHOTOBED_ROOT: ${{ vars.PHOTOBED_ROOT || 'photobed' }}
       PICHUB_TOKEN: ${{ secrets.PICHUB_TOKEN }}
+      PICHUB_TOKENS: ${{ secrets.PICHUB_TOKENS }}
       SUPERBED_TOKEN: ${{ secrets.SUPERBED_TOKEN }}
 
     steps:
@@ -32,6 +34,9 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
+
+      - name: Install image processing dependency
+        run: python3 -m pip install --disable-pip-version-check pillow
 
       - name: Refresh markdown archive snapshots
         id: archive
