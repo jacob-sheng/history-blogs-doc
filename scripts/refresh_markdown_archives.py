@@ -16,7 +16,7 @@ TIMESTAMP_RE = re.compile(r"^\d{8}-\d{6}_.+\.md$")
 
 def run_git(repo_root: Path, *args: str) -> str:
     result = subprocess.run(
-        ["git", *args],
+        ["git", "-c", "core.quotePath=false", *args],
         cwd=repo_root,
         check=True,
         capture_output=True,
