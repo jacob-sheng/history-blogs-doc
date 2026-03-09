@@ -181,6 +181,8 @@ class PicHubUploader:
                 continue
 
             url = extract_first_url(payload.get("data"))
+            if not url:
+                url = extract_first_url(payload.get("images"))
             if url:
                 return url
             last_error = UploadError(f"PicHub response did not include a usable URL: {payload}")
