@@ -96,6 +96,32 @@
       "provider": "pichub",
       "hash": "ea932733c123905aff470f56ee98da8d7cde7edcc4227b71b4ce1343ef482aab",
       "status": "uploaded"
+    },
+    "aecfc0980580fcc0a6a131ba47ca36d5be4878b30050e13350c2e667f185e4de": {
+      "source_path": "photobed/jingkang/image.png",
+      "github_url": "https://raw.githubusercontent.com/jacob-sheng/history-blogs-doc/main/photobed/jingkang/image.png",
+      "mirror_url": "https://cdn.pichub.app/img/images/4c/e2/4ce2b0513c80fa1b6f358ec14c5551a1f3158b5f.webp",
+      "provider": "pichub",
+      "provider_account": "pichub-01-65dc861d",
+      "hash": "aecfc0980580fcc0a6a131ba47ca36d5be4878b30050e13350c2e667f185e4de",
+      "original_size": 1011566,
+      "uploaded_size": 156828,
+      "transformed": true,
+      "uploaded_filename": "aecfc0980580fcc0-image.webp",
+      "status": "uploaded"
+    },
+    "d1e99d59b8f8ba3afe8f7403b1f979c49af5654a0caf18c480e0c7654a15534e": {
+      "source_path": "photobed/jingkang/jingkang-yuci-battle-map.png",
+      "github_url": "https://raw.githubusercontent.com/jacob-sheng/history-blogs-doc/main/photobed/jingkang/jingkang-yuci-battle-map.png",
+      "mirror_url": "https://cdn.pichub.app/img/images/68/ee/68eef03a68fb30c0c5abb3165d1a8a13c577d33e.webp",
+      "provider": "pichub",
+      "provider_account": "pichub-01-65dc861d",
+      "hash": "d1e99d59b8f8ba3afe8f7403b1f979c49af5654a0caf18c480e0c7654a15534e",
+      "original_size": 1385215,
+      "uploaded_size": 223572,
+      "transformed": true,
+      "uploaded_filename": "d1e99d59b8f8ba3a-jingkang-yuci-battle-map.webp",
+      "status": "uploaded"
     }
   }
 }
