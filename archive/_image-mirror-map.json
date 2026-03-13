@@ -247,6 +247,71 @@
       "transformed": false,
       "uploaded_filename": "2d02178e82934038-xianrenguan-qingniling-yunhai.jpg",
       "status": "uploaded"
+    },
+    "2922605bf26a1c7c3e55fd9a9a0d5d190c77e79b015c7a65ed88a5fe43a30fc9": {
+      "source_path": "photobed/nansong-1/beisong-guard-theoretical-formation.png",
+      "github_url": "https://raw.githubusercontent.com/jacob-sheng/history-blogs-doc/main/photobed/nansong-1/beisong-guard-theoretical-formation.png",
+      "mirror_url": "https://cdn.pichub.app/img/images/f6/87/f6870fde090dc7e11db99d5c54da2d6741de77d6.png",
+      "provider": "pichub",
+      "provider_account": "pichub-01-9ce98b5c",
+      "hash": "2922605bf26a1c7c3e55fd9a9a0d5d190c77e79b015c7a65ed88a5fe43a30fc9",
+      "original_size": 161845,
+      "uploaded_size": 161845,
+      "transformed": false,
+      "uploaded_filename": "2922605bf26a1c7c-beisong-guard-theoretical-formation.png",
+      "status": "uploaded"
+    },
+    "4da443ff0fd4d2e9ef9a8353e86ce94afd25a8810470921e281ca577860928e1": {
+      "source_path": "photobed/nansong-1/nansong-broken-blade-ruins.jpg",
+      "github_url": "https://raw.githubusercontent.com/jacob-sheng/history-blogs-doc/main/photobed/nansong-1/nansong-broken-blade-ruins.jpg",
+      "mirror_url": "https://cdn.pichub.app/img/images/7e/e1/7ee15b2b26456f059f2a64b9eb5244ca6e0627a7.webp",
+      "provider": "pichub",
+      "provider_account": "pichub-02-1c2c999d",
+      "hash": "4da443ff0fd4d2e9ef9a8353e86ce94afd25a8810470921e281ca577860928e1",
+      "original_size": 1776319,
+      "uploaded_size": 254232,
+      "transformed": true,
+      "uploaded_filename": "4da443ff0fd4d2e9-nansong-broken-blade-ruins.webp",
+      "status": "uploaded"
+    },
+    "801f1390bb77249d87e6c918e81b0f234fef4dae5618eab83a12160df73d2596": {
+      "source_path": "photobed/nansong-1/yancheng-anti-cavalry-4stage.svg",
+      "github_url": "https://raw.githubusercontent.com/jacob-sheng/history-blogs-doc/main/photobed/nansong-1/yancheng-anti-cavalry-4stage.svg",
+      "mirror_url": "https://cdn.pichub.app/img/images/c7/ea/c7ea12404911c82b7349717da80c817ad7854c01.svg",
+      "provider": "pichub",
+      "provider_account": "pichub-03-fd52dcfc",
+      "hash": "801f1390bb77249d87e6c918e81b0f234fef4dae5618eab83a12160df73d2596",
+      "original_size": 11676,
+      "uploaded_size": 11676,
+      "transformed": false,
+      "uploaded_filename": "801f1390bb77249d-yancheng-anti-cavalry-4stage.svg",
+      "status": "uploaded"
+    },
+    "a5b79388d0ec0b6dbcd013dddee3a23fb4de7b30471b0e165f03715b2c6008dd": {
+      "source_path": "photobed/nansong-1/yuejiajun-cut-horse-legs-illustration.png",
+      "github_url": "https://raw.githubusercontent.com/jacob-sheng/history-blogs-doc/main/photobed/nansong-1/yuejiajun-cut-horse-legs-illustration.png",
+      "mirror_url": "https://cdn.pichub.app/img/images/0b/8a/0b8a9279ac3c895f77dcc2025e93062e1b0bc4fd.webp",
+      "provider": "pichub",
+      "provider_account": "pichub-04-7469fb62",
+      "hash": "a5b79388d0ec0b6dbcd013dddee3a23fb4de7b30471b0e165f03715b2c6008dd",
+      "original_size": 1981372,
+      "uploaded_size": 302586,
+      "transformed": true,
+      "uploaded_filename": "a5b79388d0ec0b6d-yuejiajun-cut-horse-legs-illustration.webp",
+      "status": "uploaded"
+    },
+    "82c19b5aa15933012a309e3ac667e9f0f83e4fd23095b1f0d556d587234eedaa": {
+      "source_path": "photobed/nansong-1/zhuxianzhen-northern-expedition-camp-dusk.png",
+      "github_url": "https://raw.githubusercontent.com/jacob-sheng/history-blogs-doc/main/photobed/nansong-1/zhuxianzhen-northern-expedition-camp-dusk.png",
+      "mirror_url": "https://cdn.pichub.app/img/images/78/88/7888da25bda6f0327654978d7ffa811284182414.webp",
+      "provider": "pichub",
+      "provider_account": "pichub-01-9ce98b5c",
+      "hash": "82c19b5aa15933012a309e3ac667e9f0f83e4fd23095b1f0d556d587234eedaa",
+      "original_size": 4552849,
+      "uploaded_size": 380592,
+      "transformed": true,
+      "uploaded_filename": "82c19b5aa1593301-zhuxianzhen-northern-expedition-camp-dusk.webp",
+      "status": "uploaded"
     }
   }
 }
