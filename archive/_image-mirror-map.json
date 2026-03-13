@@ -156,6 +156,58 @@
       "transformed": false,
       "uploaded_filename": "ea932733c123905a-shenbigong.png",
       "status": "uploaded"
+    },
+    "63dc30e9478abc96203c004f42c45094c8a709101b4c1d97aafa12fe14bf4e3a": {
+      "source_path": "photobed/nansong-1/heshangyuan-defile-schematic.png",
+      "github_url": "https://raw.githubusercontent.com/jacob-sheng/history-blogs-doc/main/photobed/nansong-1/heshangyuan-defile-schematic.png",
+      "mirror_url": "https://cdn.pichub.app/img/images/8d/5b/8d5b58dbffebc6dd437fe5df528c8ee7bf1ef307.webp",
+      "provider": "pichub",
+      "provider_account": "pichub-01-9ce98b5c",
+      "hash": "63dc30e9478abc96203c004f42c45094c8a709101b4c1d97aafa12fe14bf4e3a",
+      "original_size": 1912493,
+      "uploaded_size": 426960,
+      "transformed": true,
+      "uploaded_filename": "63dc30e9478abc96-heshangyuan-defile-schematic.webp",
+      "status": "uploaded"
+    },
+    "dda2839394bb8394b5ea47711c01db9e6c0a16734d13dd5f03107167a43ae570": {
+      "source_path": "photobed/nansong-1/heshangyuan-locator-map.png",
+      "github_url": "https://raw.githubusercontent.com/jacob-sheng/history-blogs-doc/main/photobed/nansong-1/heshangyuan-locator-map.png",
+      "mirror_url": "https://cdn.pichub.app/img/images/5b/bb/5bbbaa70aac1f67f3ef04ae9250c27716a253a0d.webp",
+      "provider": "pichub",
+      "provider_account": "pichub-02-1c2c999d",
+      "hash": "dda2839394bb8394b5ea47711c01db9e6c0a16734d13dd5f03107167a43ae570",
+      "original_size": 2126762,
+      "uploaded_size": 483132,
+      "transformed": true,
+      "uploaded_filename": "dda2839394bb8394-heshangyuan-locator-map.webp",
+      "status": "uploaded"
+    },
+    "6dde8c851a4af5228ae391fc2c58d8d8609f545d98f495c15873092c555634be": {
+      "source_path": "photobed/nansong-1/heshangyuan-topography.png",
+      "github_url": "https://raw.githubusercontent.com/jacob-sheng/history-blogs-doc/main/photobed/nansong-1/heshangyuan-topography.png",
+      "mirror_url": "https://cdn.pichub.app/img/images/1d/e3/1de3130da4e67da17697449295ed7b387bfd2478.webp",
+      "provider": "pichub",
+      "provider_account": "pichub-03-fd52dcfc",
+      "hash": "6dde8c851a4af5228ae391fc2c58d8d8609f545d98f495c15873092c555634be",
+      "original_size": 2242808,
+      "uploaded_size": 460318,
+      "transformed": true,
+      "uploaded_filename": "6dde8c851a4af522-heshangyuan-topography.webp",
+      "status": "uploaded"
+    },
+    "3152d1fe6097a38f4236a051d967eb03329aacb0282fc5fd22e5b79224ebf382": {
+      "source_path": "photobed/nansong-1/nansong-military-system-compare.svg",
+      "github_url": "https://raw.githubusercontent.com/jacob-sheng/history-blogs-doc/main/photobed/nansong-1/nansong-military-system-compare.svg",
+      "mirror_url": "https://cdn.pichub.app/img/images/98/7d/987d9b3498cdc27a18648a161d05564b8a64b53a.svg",
+      "provider": "pichub",
+      "provider_account": "pichub-04-7469fb62",
+      "hash": "3152d1fe6097a38f4236a051d967eb03329aacb0282fc5fd22e5b79224ebf382",
+      "original_size": 5002,
+      "uploaded_size": 5002,
+      "transformed": false,
+      "uploaded_filename": "3152d1fe6097a38f-nansong-military-system-compare.svg",
+      "status": "uploaded"
     }
   }
 }
