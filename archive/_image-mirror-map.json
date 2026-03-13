@@ -208,6 +208,45 @@
       "transformed": false,
       "uploaded_filename": "3152d1fe6097a38f-nansong-military-system-compare.svg",
       "status": "uploaded"
+    },
+    "7a0e83dec043c95d1c1e0c499b51a3a764c33d452a60b7e6218ccb4eb8d6ff0e": {
+      "source_path": "photobed/nansong-1/huangtiandang-breakout-map.png",
+      "github_url": "https://raw.githubusercontent.com/jacob-sheng/history-blogs-doc/main/photobed/nansong-1/huangtiandang-breakout-map.png",
+      "mirror_url": "https://cdn.pichub.app/img/images/9e/69/9e69f7bcd963de7007f90a611cb1d04c691b1341.png",
+      "provider": "pichub",
+      "provider_account": "pichub-01-9ce98b5c",
+      "hash": "7a0e83dec043c95d1c1e0c499b51a3a764c33d452a60b7e6218ccb4eb8d6ff0e",
+      "original_size": 511455,
+      "uploaded_size": 511455,
+      "transformed": false,
+      "uploaded_filename": "7a0e83dec043c95d-huangtiandang-breakout-map.png",
+      "status": "uploaded"
+    },
+    "83cabc659f6325ed8e701f719c9a0316b9b53b6f4723a401fb07f4416d18ffbb": {
+      "source_path": "photobed/nansong-1/huangtiandang-overview-map.png",
+      "github_url": "https://raw.githubusercontent.com/jacob-sheng/history-blogs-doc/main/photobed/nansong-1/huangtiandang-overview-map.png",
+      "mirror_url": "https://cdn.pichub.app/img/images/bd/1c/bd1c53a54004f30bbf93589951f93d6f68b6e08f.webp",
+      "provider": "pichub",
+      "provider_account": "pichub-02-1c2c999d",
+      "hash": "83cabc659f6325ed8e701f719c9a0316b9b53b6f4723a401fb07f4416d18ffbb",
+      "original_size": 925945,
+      "uploaded_size": 204864,
+      "transformed": true,
+      "uploaded_filename": "83cabc659f6325ed-huangtiandang-overview-map.webp",
+      "status": "uploaded"
+    },
+    "2d02178e8293403872ef60215276ed93b26687bf0d3d2a9a462942c2dc5d14de": {
+      "source_path": "photobed/nansong-1/xianrenguan-qingniling-yunhai.jpg",
+      "github_url": "https://raw.githubusercontent.com/jacob-sheng/history-blogs-doc/main/photobed/nansong-1/xianrenguan-qingniling-yunhai.jpg",
+      "mirror_url": "https://cdn.pichub.app/img/images/98/bd/98bd392c2339e3cf1a46d13f651437f161e93567.jpg",
+      "provider": "pichub",
+      "provider_account": "pichub-03-fd52dcfc",
+      "hash": "2d02178e8293403872ef60215276ed93b26687bf0d3d2a9a462942c2dc5d14de",
+      "original_size": 128593,
+      "uploaded_size": 128593,
+      "transformed": false,
+      "uploaded_filename": "2d02178e82934038-xianrenguan-qingniling-yunhai.jpg",
+      "status": "uploaded"
     }
   }
 }
