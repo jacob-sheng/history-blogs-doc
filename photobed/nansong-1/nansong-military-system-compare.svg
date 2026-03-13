@@ -1,0 +1,94 @@
+<svg width="1100" height="760" viewBox="0 0 1100 760" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1100" height="760" fill="#F6F5F2"/>
+
+  <defs>
+    <style>
+      .title { font: 700 40px 'Noto Serif SC','Source Han Serif SC','Songti SC','SimSun',serif; fill: #18181B; }
+      .subtitle { font: 400 18px 'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif; fill: #52525B; }
+      .panelhead { font: 700 28px 'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif; fill: #FFFFFF; }
+      .itemtitle { font: 700 24px 'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif; fill: #18181B; }
+      .itembody { font: 400 17px 'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif; fill: #4B5563; }
+      .resultlabel { font: 700 18px 'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif; fill: #FFFFFF; }
+      .resulttext { font: 700 23px 'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif; }
+      .smalltag { font: 700 14px 'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif; letter-spacing: 1px; }
+    </style>
+  </defs>
+
+  <text x="60" y="74" class="title">北宋禁军 vs. 南宋家军</text>
+  <text x="60" y="108" class="subtitle">同样是宋军，制度逻辑已经换了一套</text>
+
+  <line x1="550" y1="146" x2="550" y2="680" stroke="#D6D3D1" stroke-width="2"/>
+
+  <rect x="60" y="150" width="470" height="74" fill="#2F3B66"/>
+  <text x="295" y="196" text-anchor="middle" class="panelhead">北宋禁军</text>
+
+  <rect x="570" y="150" width="470" height="74" fill="#556B5D"/>
+  <text x="805" y="196" text-anchor="middle" class="panelhead">南宋家军</text>
+
+  <rect x="60" y="244" width="470" height="116" fill="#FFFFFF" stroke="#D6D3D1" stroke-width="2"/>
+  <rect x="60" y="378" width="470" height="116" fill="#FFFFFF" stroke="#D6D3D1" stroke-width="2"/>
+  <rect x="60" y="512" width="470" height="116" fill="#FFFFFF" stroke="#D6D3D1" stroke-width="2"/>
+
+  <rect x="570" y="244" width="470" height="116" fill="#FFFFFF" stroke="#D6D3D1" stroke-width="2"/>
+  <rect x="570" y="378" width="470" height="116" fill="#FFFFFF" stroke="#D6D3D1" stroke-width="2"/>
+  <rect x="570" y="512" width="470" height="116" fill="#FFFFFF" stroke="#D6D3D1" stroke-width="2"/>
+
+  <rect x="84" y="266" width="88" height="28" fill="#E0E7FF"/>
+  <text x="128" y="285" text-anchor="middle" class="smalltag" fill="#2F3B66">制度一</text>
+  <text x="84" y="328" class="itemtitle">兵将分离</text>
+  <text x="224" y="314" class="itembody">
+    <tspan x="224" dy="0">将帅临时受命，</tspan>
+    <tspan x="224" dy="24">部伍彼此陌生</tspan>
+  </text>
+
+  <rect x="84" y="400" width="88" height="28" fill="#E0E7FF"/>
+  <text x="128" y="419" text-anchor="middle" class="smalltag" fill="#2F3B66">制度二</text>
+  <text x="84" y="462" class="itemtitle">以文驭武</text>
+  <text x="224" y="448" class="itembody">
+    <tspan x="224" dy="0">文臣掌军求稳，</tspan>
+    <tspan x="224" dy="24">军事效能偏低</tspan>
+  </text>
+
+  <rect x="84" y="534" width="88" height="28" fill="#E0E7FF"/>
+  <text x="128" y="553" text-anchor="middle" class="smalltag" fill="#2F3B66">制度三</text>
+  <text x="84" y="596" class="itemtitle">更戍轮换</text>
+  <text x="224" y="582" class="itembody">
+    <tspan x="224" dy="0">轮换戍边，</tspan>
+    <tspan x="224" dy="24">割裂官兵关系</tspan>
+  </text>
+
+  <rect x="594" y="266" width="88" height="28" fill="#DDE9E0"/>
+  <text x="638" y="285" text-anchor="middle" class="smalltag" fill="#556B5D">制度一</text>
+  <text x="594" y="328" class="itemtitle">将兵一体</text>
+  <text x="734" y="314" class="itembody">
+    <tspan x="734" dy="0">诸大将扩军自雄，</tspan>
+    <tspan x="734" dy="24">公然号称某家军</tspan>
+  </text>
+
+  <rect x="594" y="400" width="88" height="28" fill="#DDE9E0"/>
+  <text x="638" y="419" text-anchor="middle" class="smalltag" fill="#556B5D">制度二</text>
+  <text x="594" y="462" class="itemtitle">赏罚自主</text>
+  <text x="734" y="448" class="itembody">
+    <tspan x="734" dy="0">军纪抚恤与约束，</tspan>
+    <tspan x="734" dy="24">可直达所部</tspan>
+  </text>
+
+  <rect x="594" y="534" width="88" height="28" fill="#DDE9E0"/>
+  <text x="638" y="553" text-anchor="middle" class="smalltag" fill="#556B5D">制度三</text>
+  <text x="594" y="596" class="itemtitle">长期统带</text>
+  <text x="734" y="582" class="itembody">
+    <tspan x="734" dy="0">主将久领本军，</tspan>
+    <tspan x="734" dy="24">形成稳定核心</tspan>
+  </text>
+
+  <rect x="60" y="648" width="470" height="62" fill="#7C2D12"/>
+  <text x="94" y="686" class="resultlabel">结果</text>
+  <text x="172" y="686" class="resulttext" fill="#FFFFFF">无叛乱，也无战斗力</text>
+
+  <rect x="570" y="648" width="470" height="62" fill="#365243"/>
+  <text x="604" y="686" class="resultlabel">结果</text>
+  <text x="682" y="686" class="resulttext" fill="#FFFFFF">
+    <tspan>有战斗力，也有</tspan>
+    <tspan fill="#FDE68A">“隐患”</tspan>
+  </text>
+</svg>
