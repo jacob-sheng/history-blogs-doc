@@ -312,6 +312,19 @@
       "transformed": true,
       "uploaded_filename": "82c19b5aa1593301-zhuxianzhen-northern-expedition-camp-dusk.webp",
       "status": "uploaded"
+    },
+    "6bad81515691ca9e57cc084f58ebfa6513cb02f225313dbfae86758063c2170e": {
+      "source_path": "photobed/nansong-1/yuejiajun-cut-horse-legs-illustration.png",
+      "github_url": "https://raw.githubusercontent.com/jacob-sheng/history-blogs-doc/main/photobed/nansong-1/yuejiajun-cut-horse-legs-illustration.png",
+      "mirror_url": "https://cdn.pichub.app/img/images/00/a2/00a2078dc25f5a73f2810a7fa0bc3a7a12dbf712.webp",
+      "provider": "pichub",
+      "provider_account": "pichub-01-9ce98b5c",
+      "hash": "6bad81515691ca9e57cc084f58ebfa6513cb02f225313dbfae86758063c2170e",
+      "original_size": 1958550,
+      "uploaded_size": 295756,
+      "transformed": true,
+      "uploaded_filename": "6bad81515691ca9e-yuejiajun-cut-horse-legs-illustration.webp",
+      "status": "uploaded"
     }
   }
 }
